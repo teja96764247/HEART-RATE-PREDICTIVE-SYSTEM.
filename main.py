@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-loaded_model=pickle.load(open('D:/machine learning projects/HEART_BEAT/heart_beat.sav','rb'))
+loaded_model=pickle.load(open('heart_beat.sav','rb'))
 
 def predictive_system(input_data):
     
